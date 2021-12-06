@@ -50,7 +50,7 @@ void calendar(int year)
 void allmonth(int m,int y)
 //m= month number, y= year
 {
-    char *monthsname[]={"none","January","February","March","April","May","June","July","August","September","October","November","December"};
+    char *monthsname[]={"\0","January","February","March","April","May","June","July","August","September","October","November","December"};
     printf("\n\n    %s  %d      \n",monthsname[m],y);
 }
 
